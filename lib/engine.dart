@@ -20,7 +20,7 @@ class _EngineState extends State<Engine> {
           child: Column(
             children: [
               Container(
-                height: height * 0.5,
+                height: height * 0.48,
                 color: Colors.white,
                 child: Column(
                   children: [

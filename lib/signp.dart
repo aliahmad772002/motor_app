@@ -141,20 +141,30 @@ class _SignUpState extends State<SignUp> {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30),
                 ),
-                child: Container(
-                  height: height * 0.08,
-                  width: width * 0.85,
-                  decoration: BoxDecoration(
-                    color: Color(0xff1A237E),
-                    borderRadius: BorderRadius.circular(30),
-                  ),
-                  child: Center(
-                    child: Text(
-                      'Sign Up',
-                      style: TextStyle(
-                          fontSize: width * 0.045,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold),
+                child: InkWell(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SignIn(),
+                      ),
+                    );
+                  },
+                  child: Container(
+                    height: height * 0.08,
+                    width: width * 0.85,
+                    decoration: BoxDecoration(
+                      color: Color(0xff1A237E),
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                    child: Center(
+                      child: Text(
+                        'Sign Up',
+                        style: TextStyle(
+                            fontSize: width * 0.045,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                   ),
                 ),

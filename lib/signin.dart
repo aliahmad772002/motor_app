@@ -185,7 +185,7 @@ class _SignInState extends State<SignIn> {
                 ],
               ),
               SizedBox(
-                height: height * 0.13,
+                height: height * 0.1,
               ),
               Padding(
                 padding: EdgeInsets.only(right: width * 0.03),

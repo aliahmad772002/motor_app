@@ -96,7 +96,7 @@ class _CartState extends State<Cart> {
                         children: [
                           Container(
                             height: height * 0.3,
-                            // color: Colors.amber,
+                            width: width,
                             child: Row(
                               children: [
                                 Container(
@@ -105,7 +105,7 @@ class _CartState extends State<Cart> {
                                   child: Image.asset('images/tyre.png'),
                                 ),
                                 Container(
-                                  height: height * 0.25,
+                                  height: height * 0.28,
                                   width: width * 0.45,
                                   child: Column(
                                     mainAxisAlignment:
@@ -205,7 +205,7 @@ class _CartState extends State<Cart> {
                                   child: Image.asset('images/tyre.png'),
                                 ),
                                 Container(
-                                  height: height * 0.25,
+                                  height: height * 0.28,
                                   width: width * 0.45,
                                   child: Column(
                                     mainAxisAlignment:
@@ -305,7 +305,7 @@ class _CartState extends State<Cart> {
                                   child: Image.asset('images/tyre.png'),
                                 ),
                                 Container(
-                                  height: height * 0.25,
+                                  height: height * 0.28,
                                   width: width * 0.45,
                                   child: Column(
                                     mainAxisAlignment:
@@ -405,7 +405,7 @@ class _CartState extends State<Cart> {
                                   child: Image.asset('images/tyre.png'),
                                 ),
                                 Container(
-                                  height: height * 0.25,
+                                  height: height * 0.28,
                                   width: width * 0.45,
                                   child: Column(
                                     mainAxisAlignment:

@@ -487,7 +487,6 @@ class _HomeState extends State<Home> {
                                   top: 10, left: 30, right: 30),
                               child: Container(
                                   height: height * 0.4,
-                                  // color: Colors.blue,
                                   child: Column(
                                     children: [
                                       Row(
@@ -540,7 +539,7 @@ class _HomeState extends State<Home> {
                                                       width: width * 0.4,
                                                     ),
                                                     SizedBox(
-                                                      height: height * 0.02,
+                                                      height: height * 0.01,
                                                     ),
                                                     Text(
                                                       'Engine Part',
@@ -551,9 +550,6 @@ class _HomeState extends State<Home> {
                                                               Color(0xff5E7FB1),
                                                           fontWeight:
                                                               FontWeight.bold),
-                                                    ),
-                                                    SizedBox(
-                                                      height: height * 0.01,
                                                     ),
                                                     Text(
                                                       'AED 33',
@@ -588,7 +584,7 @@ class _HomeState extends State<Home> {
                                                       width: width * 0.4,
                                                     ),
                                                     SizedBox(
-                                                      height: height * 0.02,
+                                                      height: height * 0.01,
                                                     ),
                                                     Text(
                                                       'Body Part',
@@ -599,9 +595,6 @@ class _HomeState extends State<Home> {
                                                               Color(0xff5E7FB1),
                                                           fontWeight:
                                                               FontWeight.bold),
-                                                    ),
-                                                    SizedBox(
-                                                      height: height * 0.01,
                                                     ),
                                                     Text(
                                                       'AED 33',
@@ -678,7 +671,7 @@ class _HomeState extends State<Home> {
                                                       width: width * 0.4,
                                                     ),
                                                     SizedBox(
-                                                      height: height * 0.02,
+                                                      height: height * 0.01,
                                                     ),
                                                     Text(
                                                       'Head Light',
@@ -689,9 +682,6 @@ class _HomeState extends State<Home> {
                                                               Color(0xff5E7FB1),
                                                           fontWeight:
                                                               FontWeight.bold),
-                                                    ),
-                                                    SizedBox(
-                                                      height: height * 0.01,
                                                     ),
                                                     Text(
                                                       'AED 33',
@@ -726,7 +716,7 @@ class _HomeState extends State<Home> {
                                                       width: width * 0.4,
                                                     ),
                                                     SizedBox(
-                                                      height: height * 0.02,
+                                                      height: height * 0.01,
                                                     ),
                                                     Text(
                                                       'Break Switch',
@@ -737,9 +727,6 @@ class _HomeState extends State<Home> {
                                                               Color(0xff5E7FB1),
                                                           fontWeight:
                                                               FontWeight.bold),
-                                                    ),
-                                                    SizedBox(
-                                                      height: height * 0.01,
                                                     ),
                                                     Text(
                                                       'AED 33',

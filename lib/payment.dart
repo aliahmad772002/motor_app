@@ -324,7 +324,7 @@ class _PaymentState extends State<Payment> {
                 ),
               ),
               SizedBox(
-                height: height * 0.03,
+                height: height * 0.02,
               ),
               Card(
                 elevation: 5,

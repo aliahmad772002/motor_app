@@ -67,7 +67,7 @@ class _NotifyState extends State<Notify> {
                       ListView(
                         children: [
                           Container(
-                            height: height * 0.1,
+                            height: height * 0.12,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
@@ -110,7 +110,7 @@ class _NotifyState extends State<Notify> {
                             thickness: 2,
                           ),
                           Container(
-                            height: height * 0.1,
+                            height: height * 0.12,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
@@ -153,7 +153,7 @@ class _NotifyState extends State<Notify> {
                             thickness: 2,
                           ),
                           Container(
-                            height: height * 0.1,
+                            height: height * 0.12,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
@@ -196,7 +196,7 @@ class _NotifyState extends State<Notify> {
                             thickness: 2,
                           ),
                           Container(
-                            height: height * 0.1,
+                            height: height * 0.12,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
@@ -239,7 +239,7 @@ class _NotifyState extends State<Notify> {
                             thickness: 2,
                           ),
                           Container(
-                            height: height * 0.1,
+                            height: height * 0.12,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
@@ -282,7 +282,7 @@ class _NotifyState extends State<Notify> {
                             thickness: 2,
                           ),
                           Container(
-                            height: height * 0.1,
+                            height: height * 0.12,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
@@ -325,7 +325,7 @@ class _NotifyState extends State<Notify> {
                             thickness: 2,
                           ),
                           Container(
-                            height: height * 0.1,
+                            height: height * 0.12,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
@@ -368,7 +368,7 @@ class _NotifyState extends State<Notify> {
                             thickness: 2,
                           ),
                           Container(
-                            height: height * 0.1,
+                            height: height * 0.12,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [

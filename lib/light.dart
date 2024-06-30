@@ -20,7 +20,7 @@ class _LightState extends State<Light> {
           child: Column(
             children: [
               Container(
-                height: height * 0.5,
+                height: height * 0.48,
                 color: Colors.white,
                 child: Column(
                   children: [

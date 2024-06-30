@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:motor_app/address.dart';
 import 'package:motor_app/home.dart';
 import 'package:motor_app/main.dart';
+import 'package:motor_app/notify.dart';
 import 'package:motor_app/policy.dart';
 
 class Setting extends StatefulWidget {
@@ -157,25 +158,35 @@ class _SettingState extends State<Setting> {
                   ),
                 ),
               ),
-              Container(
-                height: height * 0.07,
-                width: width * 0.85,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      'Notification',
-                      style: TextStyle(
-                          fontSize: width * 0.045,
-                          color: Colors.grey[600],
-                          fontWeight: FontWeight.w500),
+              InkWell(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => Notify(),
                     ),
-                    Icon(
-                      Icons.arrow_forward_ios_outlined,
-                      size: width * 0.04,
-                      color: Colors.grey[600],
-                    )
-                  ],
+                  );
+                },
+                child: Container(
+                  height: height * 0.07,
+                  width: width * 0.85,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        'Notification',
+                        style: TextStyle(
+                            fontSize: width * 0.045,
+                            color: Colors.grey[600],
+                            fontWeight: FontWeight.w500),
+                      ),
+                      Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        size: width * 0.04,
+                        color: Colors.grey[600],
+                      )
+                    ],
+                  ),
                 ),
               ),
               SizedBox(

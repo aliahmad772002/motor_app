@@ -20,7 +20,7 @@ class _BodyState extends State<Body> {
           child: Column(
             children: [
               Container(
-                height: height * 0.5,
+                height: height * 0.48,
                 color: Colors.white,
                 child: Column(
                   children: [
